@@ -5,17 +5,8 @@ import { TimeEstimator } from '@motion-canvas/core/lib/app/TimeEstimator';
 
 
 export default makeScene2D(function* (view) {
-//   view.add(
-//     <Layout layout gap={20} alignItems={'center'}>
-//       <Txt fill={'white'}>Example</Txt>
-//       <Rect fill={'#f3303f'} padding={20} gap={20}>
-//         <Txt fill={'white'}>42</Txt>
-//         <Circle size={60} fill={'#FFC66D'} />
-//         <Txt fill={'white'}>!!!</Txt>
-//       </Rect>
-//     </Layout>,
-//   );
 
+  view.fill('#242424');
   const logger = new Logger();
   const manager = new AudioManager(logger);
 
